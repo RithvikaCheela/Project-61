@@ -82,26 +82,29 @@ p {
     right: 50px;
     z-index: 10;
     cursor: pointer;
-
 }
 
 .links {
-    float: left;
+    display: inline;
     color: blue;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 9px;
     padding-right: 9px;
-    font-family: fantasy;
+    font-family: serif;
     font-size: 20px;
+    background-color: black;
+    float: left;
 }
 
 .links:hover {
-    background-color: crimson;
+    text-decoration: underline;
+    font-size: 30px;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .article:hover {
@@ -111,6 +114,21 @@ a {
 html {
     scroll-behavior: smooth;
 }
-img:hover{
-transform: scale(0.9);
+
+img:hover {
+    transform: scale(0.9);
+}
+
+#contact {
+    background-color: dodgerblue;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+#inspiration a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: deepskyblue !important;
 }
