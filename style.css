@@ -77,7 +77,7 @@ p {
 .menu {
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 50px;
     z-index: 10;
@@ -85,6 +85,7 @@ p {
 }
 
 .links {
+    float: left;
     display: inline;
     color: blue;
     padding-top: 5px;
